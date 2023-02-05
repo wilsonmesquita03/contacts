@@ -95,6 +95,7 @@ Há outras rotas ainda não documentadas aqui
 
 ## Front-End <br>
 Temos um front online: https://contacts-web-wilsonmesquita03.vercel.app/ <br>
+Para utilizar nosso front online é preciso permitir conteúdo não seguro no navegador, link da discussão: https://stackoverflow.com/a/69359943<br>
 Você também pode clonar aqui: https://github.com/wilsonmesquita03/contacts-web <br>
 Caso clone é preciso criar um .env na raiz do projeto front e passar a base url do servidor ```REACT_APP_API_BASE_URL=<baseUrl>```
 
