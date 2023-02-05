@@ -7,6 +7,9 @@ export class Contact {
     id: number
 
     @Column()
+    name: string
+
+    @Column()
     email: string
 
     @Column()

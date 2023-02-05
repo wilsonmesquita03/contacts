@@ -1,5 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, OneToMany } from "typeorm";
 import { Contact } from "./Contact";
+import { Exclude } from "class-transformer";
 
 @Entity()
 export class Client {
@@ -11,6 +12,10 @@ export class Client {
 
     @Column()
     email: string
+
+    @Column()
+    @Exclude()
+    password: string
 
     @Column()
     tel_number: string
